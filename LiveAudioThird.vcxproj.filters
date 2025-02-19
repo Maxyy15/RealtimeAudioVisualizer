@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGist-master\src\ofxGist.cpp">
+			<Filter>addons\ofxGist-master\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGist-master\libs\Gist\src\core\CoreFrequencyDomainFeatures.cpp">
+			<Filter>addons\ofxGist-master\libs\Gist\src\core</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGist-master\libs\Gist\src\core\CoreTimeDomainFeatures.cpp">
+			<Filter>addons\ofxGist-master\libs\Gist\src\core</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGist-master\libs\Gist\src\mfcc\MFCC.cpp">
+			<Filter>addons\ofxGist-master\libs\Gist\src\mfcc</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGist-master\libs\Gist\src\onset-detection-functions\OnsetDetectionFunction.cpp">
+			<Filter>addons\ofxGist-master\libs\Gist\src\onset-detection-functions</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGist-master\libs\Gist\src\pitch\Yin.cpp">
+			<Filter>addons\ofxGist-master\libs\Gist\src\pitch</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGist-master\libs\kiss_fft130\kiss_fft.c">
+			<Filter>addons\ofxGist-master\libs\kiss_fft130</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGist-master\libs\Stark-Plumbley\ChordDetector.cpp">
+			<Filter>addons\ofxGist-master\libs\Stark-Plumbley</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGist-master\libs\Stark-Plumbley\Chromagram.cpp">
+			<Filter>addons\ofxGist-master\libs\Stark-Plumbley</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons">
+			<UniqueIdentifier>{2E825FB8--458-1-4C-B9-9-3BB-089B879A10E6}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxGist-master">
+			<UniqueIdentifier>{1E1E2816--072-5-4F-43-8-EEF-86774E773339}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxGist-master\src">
+			<UniqueIdentifier>{63B3CF15--055-9-44-71-9-2F3-C085A5FEA0D7}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxGist-master\libs">
+			<UniqueIdentifier>{D54D092D--9CD-4-45-48-A-BCC-A27E139ED860}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxGist-master\libs\Gist">
+			<UniqueIdentifier>{0F9ABE7C--E84-9-48-EE-A-2C4-167D26F821A5}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxGist-master\libs\Gist\src">
+			<UniqueIdentifier>{A8E14C1E--5F7-F-4C-71-8-E8D-7E540E0E83C4}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxGist-master\libs\Gist\src\core">
+			<UniqueIdentifier>{E612A805--E4D-8-42-81-9-8CD-7A5EF8DB35AB}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxGist-master\libs\Gist\src\mfcc">
+			<UniqueIdentifier>{F63329BC--985-7-42-27-8-D3B-DFB0E6EB3347}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxGist-master\libs\Gist\src\onset-detection-functions">
+			<UniqueIdentifier>{8DEAC811--F1D-4-48-8D-A-520-CD7477BAE0F5}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxGist-master\libs\Gist\src\pitch">
+			<UniqueIdentifier>{3EEE0737--496-9-4C-DA-9-232-7BCC1567A4E6}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxGist-master\libs\kiss_fft130">
+			<UniqueIdentifier>{45F09450--348-9-46-79-8-D26-9F565A515CF8}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxGist-master\libs\Stark-Plumbley">
+			<UniqueIdentifier>{712B177A--DFC-5-45-E9-9-947-4E8945826844}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGist-master\src\ofxGist.h">
+			<Filter>addons\ofxGist-master\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGist-master\libs\Gist\src\core\CoreFrequencyDomainFeatures.h">
+			<Filter>addons\ofxGist-master\libs\Gist\src\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGist-master\libs\Gist\src\core\CoreTimeDomainFeatures.h">
+			<Filter>addons\ofxGist-master\libs\Gist\src\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGist-master\libs\Gist\src\Gist.h">
+			<Filter>addons\ofxGist-master\libs\Gist\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGist-master\libs\Gist\src\mfcc\MFCC.h">
+			<Filter>addons\ofxGist-master\libs\Gist\src\mfcc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGist-master\libs\Gist\src\onset-detection-functions\OnsetDetectionFunction.h">
+			<Filter>addons\ofxGist-master\libs\Gist\src\onset-detection-functions</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGist-master\libs\Gist\src\pitch\Yin.h">
+			<Filter>addons\ofxGist-master\libs\Gist\src\pitch</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGist-master\libs\kiss_fft130\kiss_fft.h">
+			<Filter>addons\ofxGist-master\libs\kiss_fft130</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGist-master\libs\kiss_fft130\_kiss_fft_guts.h">
+			<Filter>addons\ofxGist-master\libs\kiss_fft130</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGist-master\libs\Stark-Plumbley\ChordDetector.h">
+			<Filter>addons\ofxGist-master\libs\Stark-Plumbley</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGist-master\libs\Stark-Plumbley\Chromagram.h">
+			<Filter>addons\ofxGist-master\libs\Stark-Plumbley</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>
